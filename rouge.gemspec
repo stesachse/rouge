@@ -12,7 +12,8 @@ Gem::Specification.new do |s|
   desc
   s.homepage = "http://rouge.jneen.net/"
   s.rubyforge_project = "rouge"
-  s.files = Dir['Gemfile', 'LICENSE', 'rouge.gemspec', 'lib/**/*.rb', 'lib/**/*.yml', 'bin/rougify', 'lib/rouge/demos/*']
+  s.files = Dir['Gemfile', 'LICENSE', 'rouge.gemspec', 'lib/**/*.rb', 'lib/**/*.yml', 'exe/rougify', 'lib/rouge/demos/*']
+  s.bindir = "exe"
   s.executables = %w(rougify)
   s.licenses = ['MIT', 'BSD-2-Clause']
   s.required_ruby_version = '>= 2.0'
